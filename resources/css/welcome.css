@@ -1,0 +1,280 @@
+@import "welcome.css";
+@font-face {
+    font-family: 'lexend-deca-medium';
+    src: url('/resources/fonts/LexendDeca-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'lexend-deca-regular';
+    src: url('/resources/fonts/LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'lexend-deca-bold';
+    src: url('/resources/fonts/LexendDeca-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hilmar-bold';
+    src: url('/resources/fonts/Hilmar-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hilmar-Regular';
+    src: url('/resources/fonts/Hilmar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.h-paragraph {
+    color: var(--Primary-White, #FFF);
+    font-family: Lexend Deca;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 18px */
+}
+
+.banner-word {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+.banner-word {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+.banner-h2 {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 31.094px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.536px;
+    /* 114.286% */
+}
+
+.banner-button {
+    display: flex;
+    padding: 11.327px 22.655px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-services-title {
+    color: var(--Brand-Blue, #0095D9);
+    /* Section Title */
+    font-family: Hilmar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.p-services-paragraph {
+    color: var(--Primary-Black, #000911);
+    /* Large */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.p-s1 {
+    color: var(--Primary-Black, #000911);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.p-s2 {
+    color: var(--Primary-Black, #000911);
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.why-join {
+    color: var(--Brand-Blue, #0095D9);
+    /* Section Title */
+    font-family: Hilmar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.why-1 {
+    color: var(--Brand-Blue, #0095D9);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.n-media-title {
+    color: var(--Brand-Blue, #0095D9);
+    /* Section Title */
+    font-family: Hilmar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.n-m-title {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.n-m-button {
+    color: var(--Brand-Blue, #0095D9);
+    /* Normal Bold */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.help-p {
+    color: var(--Primary-Black, #000911);
+    /* Large */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.help-p1 {
+    color: var(--Others-Text-Muted, rgba(26, 25, 30, 0.50));
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.accordion-t {
+    color: var(--Primary-Black, #000911);
+    /* Large Bold */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.our-branches {
+    color: var(--Brand-Blue, #0095D9);
+    text-align: center;
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.branch-title {
+    color: var(--Primary-White, #FFF);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.branch-paragraph {
+    color: var(--Primary-White, #FFF);
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.branch-button {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-title {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-p {
+    color: var(--Brand-Dark-Blue, #005AA9);
+    /* Large */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}

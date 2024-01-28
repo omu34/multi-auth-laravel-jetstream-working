@@ -1,0 +1,639 @@
+@font-face {
+    font-family: 'lexend-deca-medium';
+    src: url('/resources/fonts/LexendDeca-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'lexend-deca-regular';
+    src: url('/resources/fonts/LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'lexend-deca-bold';
+    src: url('/resources/fonts/LexendDeca-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hilmar-bold';
+    src: url('/resources/fonts/Hilmar-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'hilmar-Regular';
+    src: url('/resources/fonts/Hilmar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.nav-word {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 520;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.nav-word:hover {
+    color: #0b0ff9;
+}
+
+.h-paragraph {
+    color: var(--Primary-White, #FFF);
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    /* 18px */
+}
+
+.h-paragraph:hover {
+    color: #FFCC26;
+}
+
+.menu-text {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.menu-text:hover {
+    color: #0b0ff9;
+}
+
+.band-logo {
+    color: var(--Brand-Dark-Blue, #005AA9);
+    font-family: Hilmar;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.power-to-succeed {
+    color: var(--Brand-Yellow, #FFCC26);
+    font-family: Hilmar;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-word {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+.banner-h2 {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 31.094px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.536px;
+    /* 114.286% */
+}
+
+.banner-button {
+    display: flex;
+    padding: 11.327px 22.655px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-services-title {
+    color: var(--Brand-Blue, #0095D9);
+    /* Section Title */
+    font-family: Hilmar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.p-services-paragraph {
+    color: var(--Primary-Black, #000911);
+    /* Large */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.p-s1 {
+    color: var(--Primary-Black, #000911);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.p-s2 {
+    color: var(--Primary-Black, #000911);
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.why-join {
+    color: var(--Brand-Blue, #0095D9);
+    /* Section Title */
+    font-family: Hilmar;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.why-1 {
+    color: var(--Brand-Blue, #0095D9);
+    font-family: Hilmar;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.n-media-title {
+    color: var(--Brand-Blue, #0095D9);
+    /* Section Title */
+    font-family: Hilmar;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.n-m-title {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.n-m-button {
+    color: var(--Brand-Blue, #0095D9);
+    /* Normal Bold */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.n-m-buttons {
+    color: var(--Brand-Blue, #331ad0);
+    /* Normal Bold */
+    font-family: Lexend Deca;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.help-p {
+    color: var(--Primary-Black, #000911);
+    /* Large */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.help-p1 {
+    color: var(--Others-Text-Muted, rgba(26, 25, 30, 0.50));
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.accordion-t {
+    color: var(--Primary-Black, #000911);
+    /* Large Bold */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.our-branches {
+    color: var(--Brand-Blue, #0095D9);
+    text-align: center;
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.branch-title {
+    color: var(--Primary-White, #FFF);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.branch-paragraph {
+    color: var(--Primary-White, #FFF);
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.branch-button {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-title {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-p {
+    color: var(--Brand-Dark-Blue, #005AA9);
+    /* Large */
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.footer-p:hover {
+    color: #FFCC26;
+}
+
+.ordinary-savings {
+    color: var(--Brand-Blue, #0095D9);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.ordinary-s-titles {
+    color: var(--Primary-Black, #000911);
+    /* Large Bold */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-account {
+    color: var(--Primary-Black, #000911);
+    /* Large Bold */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p-details {
+    color: var(--Others-Text-Muted, rgba(26, 25, 30, 0.50));
+    /* Normal */
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.join {
+    color: var(--Primary-Black, #000911);
+    /* Large */
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.vision {
+    color: var(--Brand-Dark-Blue, #005AA9);
+    /* Hilmar Large */
+    font-family: Hilmar;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cores {
+    color: var(--Brand-Blue, #0095D9);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.core-tick {
+    color: var(--Brand-Dark-Blue, #005AA9);
+    /* Hilmar Large */
+    font-family: Hilmar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services-paragraph {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.536px;
+    /* 148.068% */
+}
+
+.responsibility {
+    color: var(--Brand-Blue, #0095D9);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.role {
+    color: var(--text-default, #1A191E);
+    text-align: center;
+    /* Normal */
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.name-1 {
+    color: var(--Primary-Black, #000911);
+    text-align: center;
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.bandaripesa-body-paragraph {
+    border-radius: 16px;
+    border: 1px solid var(--Brand-Blue, #0095D9);
+    background: var(--Hues-Very-Light-Blue, #DDEFFF);
+}
+
+.bandaripesa-paragraph {
+    color: var(--Others-Text-Muted, rgba(26, 25, 30, 0.50));
+    /* Large */
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.bandaripesa-s-titles {
+    color: var(--Primary-Black, #000911);
+    /* Large Bold */
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.details {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.band-p {
+    color: var(--Primary-Black, #000911);
+    text-align: center;
+    /* Title */
+    font-family: Hilmar;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.band-n {
+    color: var(--Brand-Blue, #0095D9);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.bandari-app {
+    color: var(--Primary-Black, #000911);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.resource-date-text {
+    color: var(--Others-Text-Muted, rgba(26, 25, 30, 0.50));
+    /* Normal */
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
+
+.single-word {
+    color: var(--Primary-White, #FFF);
+    font-family: Hilmar;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+.single-h2 {
+    color: var(--Primary-White, #FFF);
+    /* Large */
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.single-header {
+    color: var(--text-default, #1A191E);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.single-social-h {
+    color: var(--text-default, #1A191E);
+    text-align: center;
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.single-title {
+    color: var(--Primary-Black, #000911);
+    font-family: Hilmar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.p-s3 {
+    color: #272836;
+    /* Title */
+    font-family: Hilmar;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.membership {
+    color: var(--Others-Text-Muted, rgba(26, 25, 30, 0.50));
+    /* Large */
+    font-family: "Lexend Deca";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+}
+
+.message {
+    color: var(--Brand-Blue, #0095D9);
+    /* Title */
+    font-family: Hilmar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.message-p {
+    color: var(--Primary-Black, #000911);
+    /* Normal */
+    font-family: "Lexend Deca";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 25.2px */
+}
